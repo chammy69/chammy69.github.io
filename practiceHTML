@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML practice</title> 
+    <meta name="discription" content="HTML練習ページです">
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body>
+    <header>
+      <h1>○○食堂</h1>
+      <img src="img/logo.png">
+    </header>
+    <hr>
+    <!-- end header --->
+    <button>メニュー</button>
+    <ul>
+      <li><a href="#">トップペ－ジ</a></li>
+      <li><a href="#">Q&A</a></li>
+      <li><a href="#">店舗検索</a></li>
+    </ul>
+    
+    <h2>今月の人気献立ランキング</h2>
+    <ol>
+      <li>ハンバーグ</li>
+      <li>ラーメン</li>
+      <li>カレーライス</li>
+    </ol>
+
+    <h3>アンケートのお願い</h3>
+    <fieldset>
+      <legend>新しくほしいメニューは？</legend>
+      <input type="checkbox" id="meats"><lavel for="meats">肉類</lavel>
+      <input type="checkbox" id="fishes"><lavel for="fishes">魚類</lavel>
+      <input type="checkbox" id="vesitables"><lavel for="vesitables">野菜類</lavel>
+      <button>送信</button>
+
+      <legend>あなたが一番好きなのは？</legend>
+      <input type="radio" id="j-food" name="favorite"><lavel for="j-food">和食</lavel>
+      <input type="radio" id="w-food" name="favorite"><lavel for="w-food">洋食</lavel>
+      <input type="radio" id="c-food" name="favorite"><lavel for="c-food">中華</lavel>
+      <button>送信</button>
+    </fieldset>
+    
+    <h2>今週のコラム</h2>
+    <h4>秘められた野菜の効果</h4>
+    <table>
+      <thead>
+        <tr><th>症状</th><th>効果が期待される野菜</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>風邪</td><td>長ネギ、生姜</td></tr>
+        <tr><td>胃腸</td><td>かぼちゃ、レンコン</td></tr>
+        <tr><td>イライラ</td><td>大根、山芋</td></tr>
+      </tbody>
+    </table>
+
+    <hr>
+    
+    <article>
+      <h3>新着情報</h3>
+      <a href=""><time>2019/0/00</time>----フェアはじまります</a>
+      <a href=""><time>2019/0/00</time>----キャンペーン実施中</a>
+      <a href=""><time>2019/0/00</time>----16時以降限定3割引</a>
+    </article>
+
+    <aside>
+      <h2>お得なお知らせ！！！</h2>
+      <p>ABC書店で0/00日にお買い物をすると今人気俳優のサイン入りアイテムがあたるチャンス！<br>このお得なチャンスを逃すな！！！</p>
+    </aside>
+
+    <hr>
+
+    <form>
+      <h4>○○食堂に関してご要望がある方は以下へ</h4>
+      <lavel for="name">氏名</lavel><input id="name" placeholder="山田太郎">
+      <lavel for="content">内容</lavel><textarea id="content" placeholder="おばちゃんの笑顔が最高すぎます"></textarea>
+      <button>送信</button>
+      
+      <h3>一緒に働く仲間募集中！</h3>
+      <h3>詳しくはメールでお問い合わせを！</h3>
+      <a href="mailto:ppppppp@ppppp.com">クリック</a>
+    </form>
+  </body>
+</html>
